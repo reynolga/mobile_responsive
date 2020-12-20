@@ -13,7 +13,6 @@
 
 section {
   text-align: center;  
-  padding: 20px 0px;
 }
 
 .bg-color-purple { background-color: var(--primary-purple);}
@@ -25,10 +24,14 @@ section {
   font-weight: 300;
 }
 
+.web-and-app-header {
+  margin-top: 20px;
+}
+
 .web-dev-grid {
   display: grid;
   max-width: 600px;
-  margin: 20px auto;
+  margin: 30px auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
 }
 
@@ -52,10 +55,13 @@ h1 {
   border-radius: 5px;
 }
 
+
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tile-grid {
@@ -93,9 +99,25 @@ h1 {
 }
 
 .digital-needs h2 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
 .digital-needs p {
   max-width: 500px;
   margin: 20px auto 20px auto; /* top, right, bottom, left */
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color:var(--white);
+}
+
+.contact-grid-left {
+  background-color: var(--primary-blue);
+}
+
+.contact-grid-right {
+  color: var(--primary-purple);
 }
