@@ -22,7 +22,18 @@ section {
   color: white;
   margin: 20px auto;
   max-width: 500px;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+.web-dev-grid {
+  display: grid;
+  max-width: 600px;
+  margin: 20px auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+}
+
+.web-dev-grid-item {
+  max-width: 300px;
 }
 
 .welcome .btn {
