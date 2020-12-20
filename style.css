@@ -1,0 +1,43 @@
+:root {
+  --primary-purple: rgb(54, 36, 147);
+  --primary-blue: rgb(47, 62, 168);
+  --orange: rgb(221, 82, 82);
+  --white: white;
+  --black: black;
+}
+
+* {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+  text-align: center;  
+  padding: 20px 0px;
+}
+
+.bg-color-purple { background-color: var(--primary-purple);}
+
+.welcome p{
+  color: white;
+  margin: 20px auto;
+  max-width: 500px;
+  font-weight: 200;
+}
+
+.welcome .btn {
+  margin-bottom:40px; /*Top, right, bottom, left */
+}
+
+h1 {
+  color: var(--white);
+  margin: 20px auto;
+}
+
+.btn {
+  background-color: var(--orange);
+  color:var(--white);
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+
