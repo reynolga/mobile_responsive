@@ -91,3 +91,11 @@ h1 {
   box-sizing: border-box;
   border-radius: 15px;
 }
+
+.digital-needs h2 {
+  margin-top: 20px;
+}
+.digital-needs p {
+  max-width: 500px;
+  margin: 20px auto 20px auto; /* top, right, bottom, left */
+}
