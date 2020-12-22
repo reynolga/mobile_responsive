@@ -17,6 +17,9 @@ section {
 
 .bg-color-purple { background-color: var(--primary-purple);}
 
+.welcome {
+  padding-top: 2S0px;
+}
 .welcome p{
   color: white;
   margin: 20px auto;
@@ -59,25 +62,25 @@ h1 {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1100px;
+  max-width: 850px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .tile-grid {
   display: grid;  
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
   margin: 20px 20px;
-  gap: 20px;  
+  gap: 15px;  
 }
 
 .tile {  
-  max-width: 300px;
+  max-width: 250px;
   background-color: var(--white);
   box-sizing: border-box;
   border-radius: 9px;
-  margin: 0 auto;
+  margin: 0px;  
 }
 
 .tile h2 {
@@ -114,10 +117,29 @@ h1 {
   color:var(--white);
 }
 
+
 .contact-grid-left {
   background-color: var(--primary-blue);
+  text-align: center;
+}
+
+.contact-grid-left h3, .contact-grid-right h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-grid-left p,  .contact-grid-right p{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-grid-left span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .contact-grid-right {
-  color: var(--primary-purple);
+  background-color: var(--primary-purple);
+  text-align: center;
 }
