@@ -18,7 +18,8 @@ section {
 .bg-color-purple { background-color: var(--primary-purple);}
 
 .welcome {
-  padding-top: 2S0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .welcome p{
   color: white;
