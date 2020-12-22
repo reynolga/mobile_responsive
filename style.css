@@ -144,3 +144,17 @@ h1 {
   background-color: var(--primary-purple);
   text-align: center;
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--black);
+  color: var(--white);
+  padding: 25px 0px;
+  justify-items:center ;
+  align-items: center;
+}
+
+.footer-grid div span {
+  color: rgb(88, 156, 246);
+}
